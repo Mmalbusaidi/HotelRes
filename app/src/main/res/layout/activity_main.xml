@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="Room Details"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TXTID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ID"
+        android:layout_marginBottom="2dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/TXTRoomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Room Number"
+        android:layout_marginBottom="2dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/TXTRoomType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Room Type"
+        android:layout_marginBottom="2dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/TXTFloorNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Floor Number"
+        android:layout_marginBottom="2dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/TXTDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number of Days"
+        android:layout_marginBottom="2dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/TXTAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Availability of Room"
+        android:layout_marginBottom="2dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/TXTAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Amount of Room"
+        android:layout_marginBottom="5dp"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New"
+        android:layout_marginBottom="2dp"
+        app:backgroundTint="@color/black" />
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginBottom="2dp"
+        app:backgroundTint="@color/black" />
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Delete"
+        app:backgroundTint="@color/black" />
+    <Button
+        android:id="@+id/ViewAllButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="View All"
+        app:backgroundTint="@color/black" />
+
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Clear"
+        app:backgroundTint="@color/black" />
+
+</LinearLayout>

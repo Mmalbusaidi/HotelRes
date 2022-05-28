@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "246678920411",
+    "firebase_url": "https://hotel-ebf28-default-rtdb.firebaseio.com",
+    "project_id": "hotel-ebf28",
+    "storage_bucket": "hotel-ebf28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246678920411:android:6d7e5f4a5607c1a551c0fe",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246678920411-9f5d6q00ceu511obfrcufds4n6tfq3bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8auiLqv7oaB9h-_jh-341cIfkb1Efn1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246678920411-9f5d6q00ceu511obfrcufds4n6tfq3bm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
